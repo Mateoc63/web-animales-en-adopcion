@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*Navbar*/
+.navbar .logo{
+    width: 3rem;   
+}
+.navbar{
+    background-color: #F5F5DC;
+    font-size: 20px;
+}
+ul .nav-item:nth-child(1){
+    margin-left: 5rem;
+}
+ul .nav-item:nth-child(2){
+    margin-left: 5rem;
+}
+ul .nav-item:nth-child(3){
+    margin-left: 5rem;
+}
+/*Parte inferior (titulo, imagen y clasificacion)*/
+.parte-inferior{
+    background-color: #000a;
+    color: white;
+}
+h1{
+    font-size: 10px;
+    font-family: "cinzel";
+}
+.imagen-perros, .imagen-perros-primera{
+    border-radius: 50px;
+}
+.imagen-perros:hover, .imagen-perros-primera{
+    opacity: 0.8;
+}
+.texto-imagen{
+    background-color: #F5F5DC;
+    color: black;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    width: 10px;
+    box-shadow: 0 0 10px #0007;
+    text-decoration: none;
+}
+.col-3 {
+    position: relative;
+  }
+  .texto-imagen {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F5F5DC;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .texto-imagen a {
+    color: black;
+    text-decoration: none;
+    font-family: "Protest Strike";
+    opacity: 0.8;
+  }
+/*parte inferior (edades y descripcion)*/
+.cuerpo-inferior{
+    background-color: #000a;
+    background-image: url(imagenes/fondonegro.png);
+    background-size: cover;
+}
+.edades {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'cinzel';
+}
+.descripciones, .descripciones-final {
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'cinzel';
+    margin-bottom: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.descripciones-final{
+    margin-right: 30px;
+}
+@media screen and (max-width: 1025px) {
+    #inicio {
+        margin-left: -100px;
+    }
+    #contactanos {
+        margin-right: 30px;
+    }
+    #dona {
+        margin-left: -10px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 370px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 400px;
+        width: 650px;
+        margin-top: 20px;
+        margin-left: 140px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 650px;
+        margin-left: 140px;
+        margin-top: -20px;
+    }
+    .container-fluid h1{
+        margin-top: -10px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+@media screen and (max-width: 860px) {
+    #inicio {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 300px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 400px;
+        width: 650px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 650px;
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+    .container-fluid h1{
+        margin-top: -30px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+@media screen and (max-width: 780px) {
+    #inicio {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 400px;
+        width: 650px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 650px;
+        margin-left: 30px;
+        margin-top: -40px;
+    }
+    .container-fluid h1{
+        margin-top: -30px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+    #inicio {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 190px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 250px;
+        width: 450px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 450px;
+        margin-left: 15px;
+        margin-top: -20px;
+    }
+    .container-fluid h1{
+        margin-top: -20px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    #inicio {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 140px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 180px;
+        width: 320px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 320px;
+        margin-left: 15px;
+        margin-top: -40px;
+    }
+    .container-fluid h1{
+        margin-top: -30px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    #inicio {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 180px;
+        width: 320px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 320px;
+        margin-left: 5px;
+        margin-top: -40px;
+    }
+    .container-fluid h1{
+        margin-top: -30px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    #inicio {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .edades{
+        display: none;
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    .container-fluid .texto-imagen{
+        width: 120px;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    .container-fluid .imagen-perros{
+        height: 180px;
+        width: 320px;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    .container-fluid .imagen-perros-primera{
+        width: 320px;
+        margin-left: -10px;
+        margin-top: -40px;
+    }
+    .container-fluid h1{
+        margin-top: -30px;
+    }
+    .descripciones, .descripciones-final{
+        display: none;
+    }
+}
+/*Estilo al js*/
+.hola{
+    border-radius: 10px;
+    background-color: #F5F5DC;
+    color: black;
+}
+.boton-cancelar{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #F5F5DC;
+}
+.boton-cancelar:hover{
+    background-color: black;
+    color: #F5F5DC;
+    opacity: 0.8;
+}
+.final{
+    background-image: url(imagenes/fondonegro.png);
+    color: #000a;
+}
+
+
+
+

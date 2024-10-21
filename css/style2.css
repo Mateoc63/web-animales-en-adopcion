@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*Navbar*/
+.navbar .logo{
+    width: 3rem;   
+}
+.navbar{
+    background-color: #F5F5DC;
+    font-size: 20px;
+}
+ul .nav-item:nth-child(1){
+    margin-left: 5rem;
+}
+ul .nav-item:nth-child(2){
+    margin-left: 5rem;
+}
+ul .nav-item:nth-child(3){
+    margin-left: 5rem;
+}
+@media screen and (max-width: 1025px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .navbar {
+        text-align: center;
+    }
+    .perro {
+        margin-top: 220px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .lado-der{
+        display: none;
+    }
+    .lado-izq .container{
+        width: 550px;
+        margin-left: 55px;
+    }
+    .lado-izq .container:nth-child(1){
+        margin-top: -35px;
+        
+    }
+    .container-fluid .lado-izq {
+        width: 850px;
+        
+    }
+}
+@media screen and (max-width: 780px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .lado-der{
+        display: none;
+    }
+    .lado-izq .container{
+        width: 500px;
+        margin-left: 55px;
+    }
+    .lado-izq .container:nth-child(1){
+        margin-top: 10px;
+        
+    }
+    .container-fluid .lado-izq {
+        width: 780px;
+        
+    }
+}
+@media screen and (max-width: 550px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .lado-der{
+        display: none;
+    }
+    .lado-izq .container{
+        width: 450px;
+        margin-left: 10px;
+    }
+    .lado-izq .container:nth-child(1){
+        margin-top: 10px;
+        
+    }
+    .container-fluid .lado-izq {
+        width: 550px;
+        
+    }
+}
+@media screen and (max-width: 450px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .lado-der{
+        display: none;
+    }
+    .lado-izq .container{
+        width: 330px;
+        margin-left: 8px;
+    }
+    .lado-izq .container:nth-child(1){
+        margin-top: 10px;
+        
+    }
+    .container-fluid .lado-izq {
+        width: 480px;
+        
+    }
+}
+@media screen and (max-width: 400px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .lado-der{
+        display: none;
+    }
+    .lado-izq .container{
+        width: 290px;
+        margin-left: 10px;
+    }
+    .lado-izq .container:nth-child(1){
+        margin-top: 10px;
+        
+    }
+    .container-fluid .lado-izq {
+        width: 480px;
+        
+    }
+}
+@media screen and (max-width: 350px) {
+    #adopta {
+        margin-left: 20px;
+        color: #F5F5DC;
+    }
+    #contactanos {
+        margin-right: 70px;
+    }
+    #dona {
+        margin-left: -80px;
+    }
+    .lado-der{
+        display: none;
+    }
+    .lado-izq .container{
+        width: 290px;
+        margin-left: 2px;
+    }
+    .lado-izq .container:nth-child(1){
+        margin-top: 10px;
+        
+    }
+    .container-fluid .lado-izq {
+        width: 480px;
+        
+    }
+}
+
+/*Perro imagen*/
+.fila-perrito{
+    background-color: #F5F5DC;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Titulo y Subtitulo*/
+h1{
+    font-family: "Cinzel";
+}
+h2{
+    font-family:  "Protest Strike";
+}
+i{
+    font-size: 30px;
+}
+/*Parte de adopcion*/
+.lado-izq{
+    background-color: #000a;
+    flex-direction: column;
+    width: 50%;
+}
+.lado-der{
+    background-color: #000a;
+    color: white;
+    flex-direction: column;
+    width: 50%;
+}
+ul{
+    font-size: 20px;
+}
+h3{
+    font-family: "Cinzel";
+}
+ul{
+    font-family: sans-serif;
+    margin-left: 1px;
+}
+.perro{
+    box-sizing: border-box;
+    background-image: url(imagenes/seccionperrosinicio.jpg);
+    width: 45rem;
+    height: 16rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.perro:hover{
+    opacity: 0.8;
+}
+.contenido-perro{
+    color: transparent;
+}
+.contenido-perro:hover{
+    font-size: 50px;
+    align-content: center;
+    color: white;
+    box-shadow: 0 0 solid black;
+    font-family: 'cinzel';
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+}
+.gato{
+    box-sizing: border-box;
+    background-image: url(imagenes/gato7.jpg);
+    width: 45rem;
+    height: 16rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gato:hover{
+    opacity: 0.8;
+}
+.contenido-gato{
+    color: transparent;
+}
+.contenido-gato:hover{
+    font-size: 50px;
+    align-content: center;
+    color: white;
+    box-shadow: 0 0 solid black;
+    font-family: 'cinzel';
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+}
+.otros{
+    box-sizing: border-box;
+    background-image: url(imagenes/hamster.jpg);
+    width: 45rem;
+    height: 16rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.otros:hover{
+    opacity: 0.8;
+}
+.contenido-otros{
+    color: transparent;
+}
+.contenido-otros:hover{
+    font-size: 50px;
+    align-content: center;
+    color: white;
+    box-shadow: 0 0 solid black;
+    font-family: 'cinzel';
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+}
+
+.texto-final{
+    font-family: "Protest Strike";
+    font-size: 20px;
+    color: #F5F5DC;
+}
+
+.help-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F5F5DC;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+  }
+  
+.help-button:hover {
+    background-color: #000a;
+    color: #F5F5DC;
+}
+  
+/*Estilo al js*/
+.hola{
+    border-radius: 10px;
+    background-color: #F5F5DC;
+    color: black;
+}
+.boton-cancelar{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #F5F5DC;
+}
+.boton-cancelar:hover{
+    background-color: black;
+    color: #F5F5DC;
+    opacity: 0.8;
+}
+/*preguntas frecuentes*/
+.texto-preguntas{
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+.preguntas{
+    font-size: 1.5rem;
+    
+}
+
+

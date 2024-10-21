@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url(imagenes/fondocreado2.PNG);
+    background-size: cover;
+}
+.btn{
+    margin-bottom: 10px;
+    background-color: #F5F5DC;
+}
+/*Navbar*/
+.navbar .logo{
+    width: 3rem;   
+}
+.navbar{
+    background-color: #F5F5DC;
+    font-size: 20px;
+}
+ul .nav-item:nth-child(1){
+    margin-left: 5rem;
+}
+ul .nav-item:nth-child(2){
+    margin-left: 5rem;
+}
+ul .nav-item:nth-child(3){
+    margin-left: 5rem;
+}
+/*carrusel*/
+.contenedor{
+    justify-content: center;
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto; 
+    width: 800px;
+    margin-top: 10px;
+}
+.carousel img {
+    height: 400px; 
+    object-fit: cover;
+}
+.container-fluid h6{
+    margin-top: 20px;
+}
+h5{
+    font-size: 2rem;
+    text-shadow: 0 0 12px black;
+    font-family: cinzel;
+}
+.texto-bajo-titulo{
+    font-family: protest strike;
+    text-shadow: 0 0 12px black;
+}
+/*carrusel flechas*/
+/* Estilo general para las flechas de control */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    box-shadow: 0 0 10px black;
+}
+
+/* Estilo del botón al pasar el mouse por encima */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* Estilo para el borde alrededor de las flechas */
+.carousel-control-prev,
+    .carousel-control-next {
+    outline: none;
+}
+
+/* Estilo para cambiar el ícono de la flecha */
+    .carousel-control-prev-icon::before {
+    font-size: 10px;
+    color: black; 
+}
+
+.carousel-control-next-icon::before {
+    font-size: 24px;
+    color: black;
+}
+/*titulo borrable*/
+h6{
+    font-family: 'cinzel';
+    color: #F5F5DC;
+}
+/*Estilo al js*/
+.hola{
+    border-radius: 10px;
+    background-color: #F5F5DC;
+    color: black;
+}
+.boton-cancelar{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #F5F5DC;
+}
+.boton-cancelar:hover{
+    background-color: black;
+    color: #F5F5DC;
+    opacity: 0.8;
+}
+/*estilo modales*/
+/* Estilo del modal */
+.modal-content {
+    border-radius: 15px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del título del modal */
+.modal-header {
+    background-color: #F5F5DC;
+    color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Estilo del cuerpo del modal */
+.modal-body {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+/* Estilo de las listas en el modal */
+.modal-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista */
+.modal-body li {
+    margin-bottom: 10px; 
+    padding: 5px 10px; 
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de cerrar */
+.btn-close {
+    background-color: transparent;
+    color: white; 
+}
+
+/* Estilo para el pie del modal */
+.modal-footer {
+    background-color: #f1f1f1; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+/*media queries*/
+@media screen and (max-width: 1025px) {
+    #inicio {
+        margin-left: -100px;
+    }
+    #contactanos {
+        margin-right: 30px;
+    }
+    #dona {
+        margin-left: -10px;
+    }
+    body{
+        height: 1024px;
+    }
+    .container-fluid h6{
+        margin-top: 120px;
+    }
+    .navbar{
+        width: 1040px;
+    }
+    .carousel{
+        width: 750px;
+        margin-left: 5px;
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 860px) {
+    #edades {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+    body{
+        height: 900px;
+    }
+    .container-fluid h6{
+        margin-top: 500px;
+    }
+    .navbar{
+        width: 770px;
+    }
+    .carousel{
+        width: 550px;
+        margin-left: 5px;
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 780px) {
+    #edades {
+        margin-left: 280px;
+    }
+    #contactanos {
+        margin-left: 250px;
+    }
+    #dona {
+        margin-left: 285px;
+    }
+    body{
+        height: 1024;
+    }
+    .container-fluid h6{
+        margin-top: 90px;
+    }
+    .navbar{
+        width: 770px;
+    }
+    .carousel{
+        width: 550px;
+        margin-left: 5px;
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #edades {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    body{
+        height: 900px;
+    }
+    #edades {
+        margin-left: 90px;
+    }
+    #contactanos {
+        margin-left: 60px;
+    }
+    #dona {
+        margin-left: 95px;
+    }
+    .container-fluid h6{
+        margin-top: 90px;
+    }
+    .navbar{
+        width: 430px;
+    }
+    .carousel{
+        width: 350px;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        height: 200px;
+    }
+    .navbar{
+        width: 400px;
+    }
+    #edades {
+        margin-left: 65px;
+    }
+    #contactanos {
+        margin-left: 40px;
+    }
+    #dona {
+        margin-left: 70px;
+    }
+    .container-fluid h6{
+        margin-top: 50px;
+    }
+    .carousel{
+        width: 350px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width: 350px) {
+    #edades {
+        margin-left: 30px;
+    }
+    #contactanos {
+        margin-right: 75px;
+    }
+    #dona {
+        margin-left: 30px;
+    }
+}
