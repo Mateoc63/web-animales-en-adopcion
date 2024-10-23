@@ -10,7 +10,7 @@ body{
     margin-bottom: 10px;
     background-color: #F5F5DC;
 }
-/*Navbar*/
+/*--------------Navbar-------------*/
 .navbar .logo{
     width: 3rem;   
 }
@@ -53,7 +53,7 @@ h5{
     font-family: protest strike;
     text-shadow: 0 0 12px black;
 }
-/*carrusel flechas*/
+/*----------------carrusel flechas-------------------*/
 /* Estilo general para las flechas de control */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -76,7 +76,7 @@ h5{
     outline: none;
 }
 
-/* Estilo para cambiar el ícono de la flecha */
+/* Estilo para cambiar el icono de la flecha */
     .carousel-control-prev-icon::before {
     font-size: 10px;
     color: black; 
@@ -112,7 +112,7 @@ h6{
     color: #F5F5DC;
     opacity: 0.8;
 }
-/*estilo modales*/
+/*---------------estilo modales---------------*/
 /* Estilo del modal */
 .modal-content {
     border-radius: 15px; 
@@ -159,7 +159,7 @@ h6{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px; 
 }
-/*media queries*/
+/*---------------media queries---------------*/
 @media screen and (max-width: 1025px) {
     #inicio {
         margin-left: -100px;

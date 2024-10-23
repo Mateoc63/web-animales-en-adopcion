@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
-/*Navbar*/
+/*---------------Navbar--------------------*/
 .navbar .logo{
     width: 3rem;   
 }
@@ -19,6 +19,8 @@ ul .nav-item:nth-child(2){
 ul .nav-item:nth-child(3){
     margin-left: 5rem;
 }
+
+/*-----------Media Screen para hacer responsive--------------*/
 @media screen and (max-width: 1025px) {
     #adopta {
         margin-left: 20px;
@@ -201,13 +203,13 @@ ul .nav-item:nth-child(3){
     }
 }
 
-/*Perro imagen*/
+/*-------------Perro imagen----------------*/
 .fila-perrito{
     background-color: #F5F5DC;
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*Titulo y Subtitulo*/
+/*-------------Titulo y Subtitulo---------*/
 h1{
     font-family: "Cinzel";
 }
@@ -217,7 +219,7 @@ h2{
 i{
     font-size: 30px;
 }
-/*Parte de adopcion*/
+/*--------Seccion inferior(Lado izquierdo y derecho)------*/
 .lado-izq{
     background-color: #000a;
     flex-direction: column;
@@ -335,7 +337,7 @@ ul{
     color: #F5F5DC;
 }
   
-/*Estilo al js*/
+/*----------Estilo al js------------*/
 .hola{
     border-radius: 10px;
     background-color: #F5F5DC;
@@ -356,14 +358,13 @@ ul{
     color: #F5F5DC;
     opacity: 0.8;
 }
-/*preguntas frecuentes*/
+/*-----------preguntas frecuentes-----------*/
 .texto-preguntas{
     margin-bottom: 50px;
     opacity: 0.6;
 }
 .preguntas{
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;  
 }
 
 

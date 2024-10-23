@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
-/*Navbar*/
+/*---------------Navbar---------------*/
 .navbar .logo{
     width: 3rem;   
 }
@@ -19,7 +19,7 @@ ul .nav-item:nth-child(2){
 ul .nav-item:nth-child(3){
     margin-left: 5rem;
 }
-/*Parte inferior (titulo, imagen y clasificacion)*/
+/*--------Parte inferior (titulo, imagen y clasificacion)--------------*/
 .parte-inferior{
     background-color: #000a;
     color: white;
@@ -45,8 +45,8 @@ h1{
 }
 .col-3 {
     position: relative;
-  }
-  .texto-imagen {
+}
+.texto-imagen {
     position: absolute;
     bottom: -22px;
     left: 50%;
@@ -56,15 +56,15 @@ h1{
     padding: 5px;
     text-align: center;
     width: 100%;
-  }
+}
   
-  .texto-imagen a {
+.texto-imagen a {
     color: black;
     text-decoration: none;
     font-family: "Protest Strike";
     opacity: 0.8;
-  }
-/*parte inferior (edades y descripcion)*/
+}
+/*------------parte inferior (edades y descripcion)-------------*/
 .cuerpo-inferior{
     background-color: #000a;
     background-image: url(imagenes/fondonegro.png);
@@ -86,6 +86,7 @@ h1{
 .descripciones-final{
     margin-right: 30px;
 }
+/*-----Media Screens para hacer responsive----------*/
 @media screen and (max-width: 1025px) {
     #inicio {
         margin-left: -100px;
@@ -387,7 +388,7 @@ h1{
         display: none;
     }
 }
-/*Estilo al js*/
+/*-------------Estilo al js----------------*/
 .hola{
     border-radius: 10px;
     background-color: #F5F5DC;
@@ -412,7 +413,3 @@ h1{
     background-image: url(imagenes/fondonegro.png);
     color: #000a;
 }
-
-
-
-
